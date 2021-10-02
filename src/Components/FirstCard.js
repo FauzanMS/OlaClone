@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import './FirstCard.css';
-import first from './first.PNG';
 export default class FirstCard extends Component {
     render() {
         return (

@@ -11,13 +11,13 @@ export default function FourthCard() {
                   <h2>Book an Ola from the App</h2>
                   <p>Download the app for exclusive deals and ease of booking</p>
             <div className="stores">
-                <img src={appstore} className="store"></img>
-                <img src={windowstore} className="store1"></img>
-                <img src={playstore} className="store"></img>
+                <img alt="gi" src={appstore} className="store"></img>
+                <img alt="gi" src={windowstore} className="store1"></img>
+                <img alt="gi" src={playstore} className="store"></img>
                 </div>
             </div>
             <div className="rightFourth">
-               <img src={log} className="imgFourth"></img>
+               <img src={log} alt="fin" className="imgFourth"></img>
             </div>
         </div>
     )
