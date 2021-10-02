@@ -1,0 +1,16 @@
+.fourthGrid{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-gap: 20px;
+}
+@media (max-width:800px ){
+    .fourthGrid{
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        grid-gap: 20px;
+    }
+}

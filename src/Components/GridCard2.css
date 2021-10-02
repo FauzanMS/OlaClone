@@ -1,0 +1,41 @@
+.card2{
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+}
+.card2:hover{
+    box-shadow: 0 0 10px #ccc , 0 0 20px #ccc;
+}
+.card2:hover .card-title{
+    color: #CCE500;
+}
+.card2 img{
+    width: 35%;
+    height: 35%;
+}
+.card2 .card-body{
+    width: 65%;
+    height: 25%;
+}
+.card2 .card-body .card-title{
+    font-weight: bold;
+    font-size: 120%;
+}
+.card2 .card-body .card-text{
+    font-size: 70%;
+}
+.cardBut{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 44%;
+    width: 25%;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+@media (max-width:800px ){
+    .card2{
+    margin: auto;
+    }
+}

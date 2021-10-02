@@ -1,0 +1,19 @@
+.secondGrid{
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2 , 1fr);
+    grid-gap: 20px;
+}
+.secondBio{
+    color: rgb(158, 158, 158);
+}
+@media (max-width:800px ){
+    .secondGrid{
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        grid-gap: 20px;
+    }
+}

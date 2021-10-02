@@ -1,0 +1,57 @@
+*{
+    font-family: "Gentona" , sans-serif;
+}
+.thirdGrid{
+    margin-top: 4%;
+    padding-top: 3%;
+    box-shadow: 0 0 10px #ccc , 0 0 20px #ccc;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.leftFourth{
+    margin: auto;
+    margin-top: 15%;
+}
+.leftFourth h1{
+    font-weight: bolder;
+}
+.leftFourth p{
+    font-weight: lighter;
+    color: rgb(156, 156, 156);
+}
+.imgFourth{
+    width: 80%;
+}
+.stores{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15%;
+}
+.store{
+    width: 9rem;
+    height:3rem;
+}
+.store1{
+    width: 9rem;
+    height: 3rem;
+}
+@media (max-width:800px ){
+    .thirdGrid{
+        width: 100%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(1 , 1fr);
+        grid-gap: 20px;
+    }
+    .stores{
+      margin-left: 15%;
+    }
+    .store{
+        width: 6rem;
+        height:2rem;
+    }
+    .store1{
+        width: 6rem;
+        height: 2rem;
+    }
+}

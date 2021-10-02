@@ -1,0 +1,18 @@
+.card{
+    text-align: left;
+}
+.card:hover{
+    box-shadow: 0 0 10px #ccc , 0 0 20px #ccc;
+}
+.card .card-text{
+color: rgb(126, 125, 125);
+}
+.cardBut{
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 44%;
+    width: 25%;
+    border-radius: 50%;
+    cursor: pointer;
+}
